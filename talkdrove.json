@@ -37,7 +37,7 @@
     },
     "TIMEZONE": {
       "description": "Enter your timezone here. Google or don't edit if you don't know!",
-      "value": "Africa/Accra",
+      "value": "Asia/Kolkata",
       "required": false
     },
    "GITHUB_TOKEN": {
