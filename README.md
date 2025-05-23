@@ -50,7 +50,14 @@ Click the button below to fork KANGO-XMD Repository to your GitHub account:
 > Generate your session ID from the link below:
 <p align="left">
   <a href="https://kango-ef1f620b32d8.herokuapp.com/?">
-    <img src="https://img.shields.io/badge/%F0%9F%9A%80%20GET%20PAIR%20CODE%20WEB-ffcc00?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/%F0%9F%9A%80%20FIRST%20PAIR%20CODE%20WEB-ffcc00?style=for-the-badge"/>
+  </a>
+</p>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
+
+<p align="left">
+  <a href="https://pair-xmd-kango.onrender.com/pair?">
+    <img src="https://img.shields.io/badge/%F0%9F%9A%80%20SECOND%20PAIR%20CODE%20WEB-ffcc00?style=for-the-badge"/>
   </a>
 </p>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/>
@@ -179,11 +186,7 @@ npm start
 
 ## `FOR TERMUX`
 ```bash
-apt update -y && apt upgrade -y && pkg update -y && pkg upgrade -y && pkg install bash -y && pkg install libwebp -y && pkg install git -y && pkg install nodejs -y && pkg install ffmpeg -y && pkg install wget -y && pkg install imagemagick -y && pkg install yarn && termux-setup-storage
-cd /sdcard
-cd bot folder name
-yarn install
-npm start
+pkg update && pkg upgrade -y && apt-get install -y bash libwebp git nodejs ffmpeg wget imagemagick && git clone https://github.com/OfficialKango/KANGO-XMD && cd KANGO-XMD && npm install && npm start
 ```
 
 ## `FOR 24/7 ACTIVATION PM2 (TERMUX)`
